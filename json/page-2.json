@@ -1,0 +1,34 @@
+{
+  "data":[
+		{
+			"title":"Free Guy",
+			"genre":"Action",
+			"year":"2021",
+			"poster":"img/poster-free-guy.png",
+			"poster2x":"img/poster-free-guy@2x.png"
+		},
+		{
+			"title":"The Black Phone",
+			"genre":"Thriller",
+			"year":"2021",
+			"poster":"img/poster-the-black-phone.png",
+			"poster2x":"img/poster-the-black-phone@2x.png"
+		},
+		{
+			"title":"Finch",
+			"genre":"Drama",
+			"year":"2021",
+			"poster":"img/poster-finch.png",
+			"poster2x":"img/poster-finch@2x.png"
+		},
+		{
+			"title":"Tar",
+			"genre":"Drama",
+			"year":"2022",
+			"poster":"img/poster-tar.png",
+			"poster2x":"img/poster-tar@2x.png"
+		}
+	],
+	"total":11,
+	"page":2
+}

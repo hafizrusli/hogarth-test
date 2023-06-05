@@ -1,0 +1,27 @@
+{
+  "data":[
+		{
+			"title":"Crazy Rich Asians",
+			"genre":"Romance",
+			"year":"2018",
+			"poster":"img/poster-crazy-rich-asian.png",
+			"poster2x":"img/poster-crazy-rich-asian@2x.png"
+		},
+		{
+			"title":"Tenet",
+			"genre":"Action",
+			"year":"2020",
+			"poster":"img/poster-tenet.png",
+			"poster2x":"img/poster-tenet@2x.png"
+		},
+		{
+			"title":"Ava",
+			"genre":"Thriller",
+			"year":"2020",
+			"poster":"img/poster-ava.png",
+			"poster2x":"img/poster-ava@2x.png"
+		}
+	],
+	"total":11,
+	"page":3
+}

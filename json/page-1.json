@@ -1,0 +1,34 @@
+{
+  "data":[
+		{
+			"title":"Spider-Man: Far From Home",
+			"genre":"Action",
+			"year":"2019",
+			"poster":"img/poster-spiderman-far-from-home.png",
+			"poster2x":"img/poster-spiderman-far-from-home@2x.png"
+		},
+		{
+			"title":"Once Upon a Time... in Hollywood",
+			"genre":"Comedy",
+			"year":"2019",
+			"poster":"img/poster-once-upon-a-time-in-hollywood.png",
+			"poster2x":"img/poster-once-upon-a-time-in-hollywood@2x.png"
+		},
+		{
+			"title":"1917",
+			"genre":"War",
+			"year":"2019",
+			"poster":"img/poster-1917.png",
+			"poster2x":"img/poster-1917@2x.png"
+		},
+		{
+			"title":"Murder Mystery",
+			"genre":"Comedy",
+			"year":"2019",
+			"poster":"img/poster-murder-mystery.png",
+			"poster2x":"img/poster-murder-mystery@2x.png"
+		}
+	],
+	"total":11,
+	"page":1
+}

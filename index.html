@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="img/favicon-180x180.png" sizes="180x180">
+	<link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="img/favicon-16x16.png" sizes="16x16" type="image/png">
+
+	<title>What to watch</title>
+	<link href="css/bootstrap.purged.css" rel="stylesheet">
+	<link href="css/styles.css?v2" rel="stylesheet">
+</head>
+<body>
+	<!-- svgs -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+		<symbol id="preloader" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+			<g transform="rotate(0 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(30 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(60 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(90 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(120 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(150 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(180 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(210 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(240 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(270 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(300 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate></rect></g><g transform="rotate(330 50 50)"><rect x="47" y="24" rx="3" ry="6" width="6" height="12" fill="#5c50bb"><animate attributeName="opacity" values="1;0" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate></rect></g>
+		</symbol>
+		<symbol id="icon-filter" viewBox="0 0 16 32" style="enable-background:new 0 0 16 32;" xml:space="preserve">
+			<style type="text/css">.st1{fill:none;stroke:#5C50BB;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style><path class="st0" d="M14.7,3.4H6.4C6,3.4,5.7,3.1,5.7,2.7S6,2.1,6.4,2.1h8.3c0.4,0,0.7,0.3,0.7,0.7S15.1,3.4,14.7,3.4z"/><path class="st0" d="M3.5,3.4H1.3c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h2.2c0.4,0,0.7,0.3,0.7,0.7S3.9,3.4,3.5,3.4z"/><path class="st0" d="M5,4.9c-1.1,0-2.1-0.9-2.1-2.1C2.9,1.6,3.8,0.7,5,0.7c1.1,0,2.1,0.9,2.1,2.1C7.1,3.9,6.1,4.9,5,4.9z M5,2C4.5,2,4.2,2.3,4.2,2.7s0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7C5.7,2.3,5.4,2,5,2z"/><path class="st0" d="M14.7,13.7H6.4c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h8.3c0.4,0,0.7,0.3,0.7,0.7C15.3,13.5,15.1,13.7,14.7,13.7z"/><path class="st0" d="M3.5,13.7H1.3c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h2.2c0.4,0,0.7,0.3,0.7,0.7C4.2,13.5,3.9,13.7,3.5,13.7z"/><path class="st0" d="M5,15.2c-1.1,0-2.1-0.9-2.1-2.1C2.9,11.9,3.9,11,5,11s2.1,0.9,2.1,2.1C7.1,14.3,6.1,15.2,5,15.2z M5,12.3c-0.4,0-0.7,0.3-0.7,0.7c0,0.4,0.3,0.8,0.7,0.8s0.7-0.3,0.7-0.8C5.7,12.7,5.4,12.3,5,12.3z"/><path class="st0" d="M9.6,8.6H1.3c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h8.3c0.4,0,0.7,0.3,0.7,0.7S9.9,8.6,9.6,8.6z"/><path class="st0" d="M14.7,8.6h-2.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7h2.2c0.4,0,0.7,0.3,0.7,0.7S15.1,8.6,14.7,8.6z"/><path class="st0" d="M11,10c-1.1,0-2.1-0.9-2.1-2.1c0-1.1,0.9-2.1,2.1-2.1c1.1,0,2.1,0.9,2.1,2.1C13.1,9.1,12.2,10,11,10z M11,7.2c-0.4,0-0.7,0.3-0.7,0.7s0.3,0.8,0.7,0.8s0.7-0.3,0.7-0.8C11.8,7.5,11.5,7.2,11,7.2z"/><path class="st1" d="M3.3,19.1l10,10"/><path class="st1" d="M3.3,29.1l10-10"/>
+		</symbol>
+		<symbol id="icon-x" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+			<path d="M1.75 1.75L14.25 14.25" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M1.75 14.25L14.25 1.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+		</symbol>
+	</svg>
+	<header>
+		<h1 class="text-center title">What to watch</h1>
+		<div class="filter-wrapper container row g-0">
+			<a href="#" class="btn-filter col-auto"> 
+				<div class="d-block" style="width:16px;height:16px;overflow:hidden;">
+					<svg width="16" height="32" fill="#565656"><use xlink:href="#icon-filter"/></svg>
+				</div>
+				Filter
+			</a>
+			<div class="popup-filter">
+				<div class="position-relative">
+					<a href="#" class="clear d-none">
+						Clear <svg width="14" height="14" stroke="#5C50BB"><use xlink:href="#icon-x"/></svg>
+					</a>
+					<div class="title">By genre</div>
+					<div class="filters genre"></div>
+					<hr>
+					<div class="title">By year</div>
+					<div class="filters year">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="2018" id="check2018">
+							<label class="form-check-label" for="check2018">
+								2018
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="2019" id="check2019">
+							<label class="form-check-label" for="check2019">
+								2019
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="2020" id="check2020">
+							<label class="form-check-label" for="check2020">
+								2020
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="2021" id="check2021">
+							<label class="form-check-label" for="check2021">
+								2021
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="2022" id="check2022">
+							<label class="form-check-label" for="check2022">
+								2022
+							</label>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="d-block btn-clear">Clear all</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="d-block btn-apply">Apply</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="content container">
+		<div class="row movies">
+			<div class="col-12 text-center">
+				<svg class="d-inline-block" width="80" height="80"><use xlink:href="#preloader"/></svg>
+			</div>
+		</div>
+		
+		<div class="page-meta d-none">
+			<div class="page-info"><span class="item">-</span> out of <span class="total">-</span></div>
+			<div class="btn-more-wrapper">
+				<a href="#" class="btn-more" data-next-page="2">Load more</a>
+			</div>
+		</div>
+	</section>
+
+<script src="js/jquery.3.2.1.min.js"></script>
+<script src="js/app.js?v2"></script>
+</body>
+</html>
